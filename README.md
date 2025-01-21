@@ -2,6 +2,8 @@
 
 Taşıyo, özel okullar için geliştirilmiş modern bir araç ve servis yönetim uygulamasıdır. Okul yönetiminden velilere, servis şoförlerinden araç sahip veya yöneticilerine kadar geniş bir kullanıcı kitlesine hitap ederek taşımacılığı hem kolaylaştırır hem de daha güvenli hale getirir.
 
+
+
 ## Proje Amacı
 
 Taşıyo, servis taşımacılığı sürecini dijitalleştirerek kullanıcıların:
@@ -9,6 +11,8 @@ Taşıyo, servis taşımacılığı sürecini dijitalleştirerek kullanıcılar�
 - Araçları, öğrencileri ve rotaları kolayca yönetmesini,
 - Öğrenci servis takibini güvenli şekilde yapmasını,
 - Raporlama ve iletişim süreçlerini hızlandırmasını sağlar.
+
+
 
 ## Özellikler
 
@@ -31,12 +35,16 @@ Taşıyo, servis taşımacılığı sürecini dijitalleştirerek kullanıcılar�
 - Günlük görev yönetimi.
 - Öğrenci alma/bırakma geri bildirimi.
 
+
+
 ## Teknoloji Yığını
 
 - **Mobil Uygulama Geliştirme:** React Native
 - **Backend:** MySQL, Firebase (Authentication, Firestore, Realtime Database)
 - **Harita Entegrasyonu:** Google Maps API
 - **Bildirimler:** Firebase Cloud Messaging (FCM)
+
+
 
 ## Kurulum
 
@@ -71,10 +79,24 @@ Taşıyo, servis taşımacılığı sürecini dijitalleştirerek kullanıcılar�
     npx react-native run-ios        # iOS cihazda test etmek için
     ```
 
+
+
 ## Yol Haritası
 
 - **1. Sürüm:** Temel özellikler, kullanıcı panelleri, harita entegrasyonu ve anlık bildirimler
 - **2. Sürüm:** İleri seviye raporlama özellikleri.
+
+
+
+## Branch Tanımları
+
+### `main` Branch
+- **Açıklama:** `main` branch'i, projenin üretim (production) sürümünü temsil eder. Bu branch sadece stabil ve test edilmiş kodu içerir. Yeni özellikler veya düzeltmeler için yapılan değişiklikler önce `develop` branch'ine yapılır ve ardından test edildikten sonra `main` branch'ine dahil edilir.
+  
+### `develop` Branch
+- **Açıklama:** `develop` branch'i, geliştirme sürecindeki en son değişiklikleri içerir. Yeni özellikler, iyileştirmeler ve hata düzeltmeleri burada yapılır. Stabil hale geldiğinde, bu branch'deki kod `main` branch'ine merge edilir. Geliştiriciler, her yeni özellik için `develop` branch'inde çalışmalıdır.
+
+
 
 ## Katkıda Bulunma
 
