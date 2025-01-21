@@ -43,7 +43,7 @@ Taşıyo, servis taşımacılığı sürecini dijitalleştirerek kullanıcılar�
 ### Gereksinimler
 
 - Node.js (En son sürüm önerilir)
-- React Native CLI
+- React Native EXPO
 - Firebase SDK
 
 ### Adımlar
